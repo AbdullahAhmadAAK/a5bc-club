@@ -84,9 +84,9 @@ header a,
 }
 
 .header-cta-button:hover {
-    background-color: rgba(0, 0, 0, 0.76);
-    color: #f2ac32;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
+    background-color: goldenrod; /* Goldenrod background when hovering */
+    color: darkred; /* Dark red text color when hovering */
 }
 
 /* DISCOVER SECTION */
