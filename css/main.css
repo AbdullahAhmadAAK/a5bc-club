@@ -433,6 +433,8 @@ ul.captain-specs li::marker {
 .rackets-pic {
     background-image: url("../Media/EquipmentSection/racket.jpg");
     background-size: cover;
+    min-width: 140px;
+    min-height: 140px;
 }
 
 .refreshments-info-1 {
@@ -444,6 +446,8 @@ ul.captain-specs li::marker {
     height: 50%;
     background-image: url("../Media/EquipmentSection/shawarma.jfif");
     background-size: cover;
+    min-width: 140px;
+    min-height: 140px;
 }
 
 .refreshments-info-2 {
@@ -454,6 +458,8 @@ ul.captain-specs li::marker {
 .refreshments-pic-2 {
     background-image: url("../Media/EquipmentSection/pizza.jfif");
     height: 50%;
+    min-width: 140px;
+    min-height: 140px;
 }
 
 .shuttles-info-1 {
@@ -465,6 +471,8 @@ ul.captain-specs li::marker {
     background-image: url("../Media/EquipmentSection/gs-champion.jfif");
     background-size: cover;
     height: 50%;
+    min-width: 140px;
+    min-height: 140px;
 }
 
 .shuttles-info-2 {
@@ -476,6 +484,8 @@ ul.captain-specs li::marker {
     background-image: url("../Media/EquipmentSection/gs-white.jfif");
     background-size: cover;
     height: 50%;
+    min-width: 140px;
+    min-height: 140px;
 }
 
 .shuttles-info-3 {
@@ -485,6 +495,8 @@ ul.captain-specs li::marker {
 
 .shuttles-pic-3 {
     background-image: url("../Media/EquipmentSection/wecan.jpg");
+    min-width: 140px;
+    min-height: 140px;
 }
 
 /******************************** EQUIPMENT SECTION *********************************/
