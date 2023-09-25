@@ -1,38 +1,45 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-  background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
-    url(../Media/full-court-pic.jpg);
-  background-size: cover;
-  text-align: center;
-  padding-bottom: 3rem !important;
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+        url(../Media/full-court-pic.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 3rem !important;
 }
 
 .brand-name {
-  font-family: "Bebas Neue", cursive;
-  font-size: 40px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 40px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
 }
 
 .nav-menu {
-  list-style: none;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding-top: 20px;
+    list-style: none;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+@media (max-width: 991px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .top-space {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 /* .nav-menu:hover {
@@ -41,100 +48,100 @@ nav {
 } */
 
 .nav-menu li {
-  display: inline-block;
-  color: black;
+    display: inline-block;
+    color: black;
 }
 
 header a,
 .nav-menu li a,
 .nav-menu li {
-  text-decoration: none;
-  color: white;
-  transition: color 2s ease;
+    text-decoration: none;
+    color: white;
+    transition: color 2s ease;
 }
 
 .nav-menu li a:hover {
-  color: #f2ac32;
+    color: #f2ac32;
 }
 
 .header-title-1 {
-  color: #f2ac32;
-  font-family: "Niconne", cursive;
+    color: #f2ac32;
+    font-family: "Niconne", cursive;
 }
 
 .header-title-2 {
-  color: #e3960f;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 56px;
-  letter-spacing: 3px;
+    color: #e3960f;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 56px;
+    letter-spacing: 3px;
 }
 
 .header-cta-button {
-  color: white;
-  border: 3px solid black;
-  background-color: rgba(0, 0, 0, 0.46);
+    color: white;
+    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.46);
 }
 
 .header-cta-button:hover {
-  background-color: rgba(0, 0, 0, 0.76);
-  color: #f2ac32;
-  transition: all 1s ease;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: #f2ac32;
+    transition: all 1s ease;
 }
 
 /* DISCOVER SECTION */
 
 .discover-section {
-  background-image: linear-gradient(rgb(236, 236, 89), rgb(167, 109, 2));
+    background-image: linear-gradient(rgb(236, 236, 89), rgb(167, 109, 2));
 }
 
 .discover-section h5 {
-  font-size: 16px;
-  color: #f2ac32;
+    font-size: 16px;
+    color: #f2ac32;
 }
 
 .discover-section .card {
-  border: 3px solid black;
+    border: 3px solid black;
 }
 
 .discover-section .card-body {
-  background-color: #ca1f1f;
+    background-color: #ca1f1f;
 }
 
 .horizontal-card {
-  flex-direction: row;
+    flex-direction: row;
 }
 
 @media screen and (min-width: 992px) {
-  .discover-card-img1 {
-    height: 252px;
-  }
+    .discover-card-img1 {
+        height: 252px;
+    }
 }
 
 .discover-card-img1 {
-  height: 200px;
-  width: 91px;
+    height: 200px;
+    width: 91px;
 }
 
 .red-card {
-  background-color: #ca1f1f;
-  border-radius: 20px 20px 20px 20px;
-  text-align: center;
-  border: 3px solid black;
-  display: inline-block;
-  flex-direction: row;
+    background-color: #ca1f1f;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    border: 3px solid black;
+    display: inline-block;
+    flex-direction: row;
 
-  width: 80%;
-  /* height: 270px; */
+    width: 80%;
+    /* height: 270px; */
 
-  transition: all 0.5s ease-in-out;
-  /* shadow code */
-  box-shadow: -9px 10px 20px 1px rgb(244 156 14);
-  -webkit-box-shadow: -9px 10px 20px 1px rgb(244 156 14);
-  -moz-box-shadow: -9px 10px 20px 1px rgb(244 156 14);
+    transition: all 0.5s ease-in-out;
+    /* shadow code */
+    box-shadow: -9px 10px 20px 1px rgb(244 156 14);
+    -webkit-box-shadow: -9px 10px 20px 1px rgb(244 156 14);
+    -moz-box-shadow: -9px 10px 20px 1px rgb(244 156 14);
 }
 
 .red-card:hover {
-  width: 100%;
+    width: 100%;
 }
 
 /* NNEED BIT OF HELP HERE */
@@ -144,69 +151,69 @@ header a,
 } */
 
 .red-card h3 {
-  align-self: center;
+    align-self: center;
 }
 
 .middle-card {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .discover-h3 {
-  color: #f2ac32;
-  font-family: "Niconne", cursive;
+    color: #f2ac32;
+    font-family: "Niconne", cursive;
 }
 
 .founders-section {
-  background-color: aqua;
+    background-color: aqua;
 }
 
 .aak-border {
-  border: 3px solid blue;
-  position: relative;
-  height: 400px;
+    border: 3px solid blue;
+    position: relative;
+    height: 400px;
 }
 
 /* SERVICES SECTION */
 
 .services-section {
-  background: linear-gradient(rgba(217, 255, 0, 0.5), rgba(0, 0, 0, 1)),
-    url(../Media/ServicesSection/court-a5bc.jpg);
-  background-size: contain;
+    background: linear-gradient(rgba(217, 255, 0, 0.5), rgba(0, 0, 0, 1)),
+        url(../Media/ServicesSection/court-a5bc.jpg);
+    background-size: contain;
 }
 
 .services-middle .card-title {
-  color: white;
-  position: relative;
+    color: white;
+    position: relative;
 }
 
 .services-card:hover .services-overlay {
-  display: block;
+    display: block;
 }
 
 .services-h1 {
-  font-family: "Niconne", cursive;
-  padding-top: 100px;
+    font-family: "Niconne", cursive;
+    padding-top: 100px;
 }
 
 .services-h2 {
-  font-family: "Fascinate", cursive;
+    font-family: "Fascinate", cursive;
 }
 
 .services-h4 {
-  color: white;
+    color: white;
 }
 
 .services-image {
-  height: 100px;
-  width: 100px;
-  size: cover;
+    height: 100px;
+    width: 100px;
+    size: cover;
 }
 
 .services-section .card {
-  background-color: rgba(7, 83, 6, 0.5);
-  border: 5px solid white;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  cursor: pointer;
+    background-color: rgba(7, 83, 6, 0.5);
+    border: 5px solid white;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    cursor: pointer;
 }
 
 /* .services-card:hover {
@@ -214,115 +221,115 @@ header a,
 }
  */
 .services-overlay {
-  display: none;
-  position: absolute;
-  background-color: rgba(244, 156, 14, 0.5);
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  text-align: center;
-  color: rgb(0, 0, 0);
+    display: none;
+    position: absolute;
+    background-color: rgba(244, 156, 14, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .services-overlay-border {
-  border: 2px solid white;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* TERHAY BORDERS OF SERVICES SECTION */
 
 /* tutorial telling me to delete this */
 .services-middle {
-  height: 400px;
-  width: 100%;
+    height: 400px;
+    width: 100%;
 }
 
 .services-bottom {
-  height: 200px;
-  width: 100%;
+    height: 200px;
+    width: 100%;
 }
 
 .services-bottom {
-  background-color: transparent;
-  position: relative;
+    background-color: transparent;
+    position: relative;
 }
 
 .services-middle:before {
-  content: "";
-  position: relative;
-  border-top: 100px solid rgb(167 109 2);
-  border-right: 98.9vw solid transparent;
-  left: 0;
-  top: 98px;
-  width: 90% !important;
-  overflow: hidden;
+    content: "";
+    position: relative;
+    border-top: 100px solid rgb(167 109 2);
+    border-right: 98.9vw solid transparent;
+    left: 0;
+    top: 98px;
+    width: 90% !important;
+    overflow: hidden;
 }
 
 .services-middle:after {
-  content: "";
-  position: relative;
-  border-bottom: 100px solid #0c0000;
-  border-left: 98.9vw solid transparent;
-  left: 0;
-  bottom: -51px;
+    content: "";
+    position: relative;
+    border-bottom: 100px solid #0c0000;
+    border-left: 98.9vw solid transparent;
+    left: 0;
+    bottom: -51px;
 
-  width: 100% !important;
-  overflow: hidden;
+    width: 100% !important;
+    overflow: hidden;
 }
 
 /* <!------------------------------------ START AWAY TEAM SECTION -------------------------------->
  */
 
 .away-team-section {
-  text-align: center;
-  background-image: url("../Media/AwayTeamSection/war-bg.jpg");
-  background-size: cover;
+    text-align: center;
+    background-image: url("../Media/AwayTeamSection/war-bg.jpg");
+    background-size: cover;
 }
 
 .away-team-h1 {
-  color: #a5b8c0;
-  font-family: fantasy;
+    color: #a5b8c0;
+    font-family: fantasy;
 }
 
 .away-team-h2 {
-  color: #a5b8c0;
-  font-family: system-ui;
+    color: #a5b8c0;
+    font-family: system-ui;
 }
 
 .collage-padding {
-  padding: 4% 20%;
+    padding: 4% 20%;
 }
 
 @media screen and (min-width: 992px) {
-  .away-row-1 {
-    width: 80%;
-  }
+    .away-row-1 {
+        width: 80%;
+    }
 }
 
 .away-row-1 {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .away-row-others {
-  width: 100%;
-  min-height: 228px;
-  height: 228px;
+    width: 100%;
+    min-height: 228px;
+    height: 228px;
 }
 
 @media screen and (min-width: 992px) {
-  .card-captain {
-    display: flex !important;
-    justify-content: flex-end !important;
-  }
-  s .card-logo {
-    display: flex !important;
-    justify-content: flex-start;
-  }
+    .card-captain {
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+    s .card-logo {
+        display: flex !important;
+        justify-content: flex-start;
+    }
 }
 /* 
 @media screen and (min-width: 992px) {
@@ -355,300 +362,300 @@ header a,
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-  background-color: transparent;
-  width: 100%;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  min-height: 228px;
+    background-color: transparent;
+    width: 100%;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    min-height: 228px;
 }
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+    background-color: #bbb;
+    color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
-  padding: 30px;
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 30px;
 }
 
 .card-captain .flip-card-back {
-  padding: 60px;
+    padding: 60px;
 }
 
 .captain-specs {
-  list-style-type: disclosure-closed;
+    list-style-type: disclosure-closed;
 }
 
 ul.captain-specs li::marker {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 /******************************** EQUIPMENT SECTION BOOTSTRAP VERSION *********************************/
 
 .equipment-section .row {
-  justify-content: center;
+    justify-content: center;
 }
 
 .rackets-info {
-  background-color: #f2ac32;
+    background-color: #f2ac32;
 }
 
 .rackets-pic {
-  background-image: url("../Media/EquipmentSection/racket.jpg");
-  background-size: cover;
+    background-image: url("../Media/EquipmentSection/racket.jpg");
+    background-size: cover;
 }
 
 .refreshments-info-1 {
-  background-color: #a93434;
-  height: 50%;
+    background-color: #a93434;
+    height: 50%;
 }
 
 .refreshments-pic-1 {
-  height: 50%;
-  background-image: url("../Media/EquipmentSection/shawarma.jfif");
-  background-size: cover;
+    height: 50%;
+    background-image: url("../Media/EquipmentSection/shawarma.jfif");
+    background-size: cover;
 }
 
 .refreshments-info-2 {
-  background-color: #a93434;
-  height: 50%;
+    background-color: #a93434;
+    height: 50%;
 }
 
 .refreshments-pic-2 {
-  background-image: url("../Media/EquipmentSection/pizza.jfif");
-  height: 50%;
+    background-image: url("../Media/EquipmentSection/pizza.jfif");
+    height: 50%;
 }
 
 .shuttles-info-1 {
-  background-color: #a93434;
-  height: 50%;
+    background-color: #a93434;
+    height: 50%;
 }
 
 .shuttles-pic-1 {
-  background-image: url("../Media/EquipmentSection/gs-champion.jfif");
-  background-size: cover;
-  height: 50%;
+    background-image: url("../Media/EquipmentSection/gs-champion.jfif");
+    background-size: cover;
+    height: 50%;
 }
 
 .shuttles-info-2 {
-  background-color: #a93434;
-  height: 50%;
+    background-color: #a93434;
+    height: 50%;
 }
 
 .shuttles-pic-2 {
-  background-image: url("../Media/EquipmentSection/gs-white.jfif");
-  background-size: cover;
-  height: 50%;
+    background-image: url("../Media/EquipmentSection/gs-white.jfif");
+    background-size: cover;
+    height: 50%;
 }
 
 .shuttles-info-3 {
-  background-color: #f2ac32;
-  height: 100%;
+    background-color: #f2ac32;
+    height: 100%;
 }
 
 .shuttles-pic-3 {
-  background-image: url("../Media/EquipmentSection/wecan.jpg");
+    background-image: url("../Media/EquipmentSection/wecan.jpg");
 }
 
 /******************************** EQUIPMENT SECTION *********************************/
 
 .equipment-section {
-  text-align: center;
-  background-color: #8b5101;
-  padding: 50px;
+    text-align: center;
+    background-color: #8b5101;
+    padding: 50px;
 }
 
 .equipment-box {
-  border: 10px solid #00000038;
+    border: 10px solid #00000038;
 }
 
 .equipment-container {
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .equipment-h1 {
-  font-family: "Niconne", cursive;
-  color: #f2ac32;
-  margin-bottom: 15px;
-  font-size: 40px;
+    font-family: "Niconne", cursive;
+    color: #f2ac32;
+    margin-bottom: 15px;
+    font-size: 40px;
 }
 
 .equipment-h2 {
-  color: #000;
-  margin-bottom: 50px;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 50px;
-  letter-spacing: 2px;
+    color: #000;
+    margin-bottom: 50px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
 }
 
 .equipment-h3 {
-  width: 100%;
-  font-family: "Niconne", cursive;
-  font-size: 22px;
-  letter-spacing: 2px;
+    width: 100%;
+    font-family: "Niconne", cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
 
 .separator,
 .separator-orange {
-  display: inline-block;
-  width: 40px;
-  border-bottom: 2px solid white;
-  margin: 15px auto;
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 15px auto;
 }
 
 .equipment-h4 {
-  font-family: "Kdam Thmor Pro", sans-serif;
-  letter-spacing: 3px;
-  width: 100%;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    letter-spacing: 3px;
+    width: 100%;
 }
 
 .equipment-p {
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: 14px;
-  padding: 30px 20px;
-  width: 100%;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 14px;
+    padding: 30px 20px;
+    width: 100%;
 }
 
 .equipment-col {
-  width: 50%;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .col-large {
-  width: 50%;
-  height: 450px;
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  flex-wrap: wrap;
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .col-large-1,
 .col-large-3 {
-  background-color: #f2ac32;
-  color: white;
-  justify-content: center;
+    background-color: #f2ac32;
+    color: white;
+    justify-content: center;
 }
 
 .col-large-2 {
-  background-image: url("../Media/EquipmentSection/racket.jpg");
-  background-size: cover;
+    background-image: url("../Media/EquipmentSection/racket.jpg");
+    background-size: cover;
 }
 
 .col-large-4 {
-  background-image: url("../Media/EquipmentSection/wecan.jpg");
-  background-size: cover;
+    background-image: url("../Media/EquipmentSection/wecan.jpg");
+    background-size: cover;
 }
 
 .col-small {
-  width: 50%;
-  height: 225px;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: center;
+    width: 50%;
+    height: 225px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .col-small-1 {
-  background-color: white;
+    background-color: white;
 }
 
 .col-small-2 {
-  background-image: url("../Media/EquipmentSection/pizza.jfif");
-  background-size: cover;
-  /* background-position: bottom; */
+    background-image: url("../Media/EquipmentSection/pizza.jfif");
+    background-size: cover;
+    /* background-position: bottom; */
 }
 
 .col-small-2-second {
-  background-image: url("../Media/EquipmentSection/gs-champion.jfif");
-  background-size: cover;
-  /* background-position: bottom; */
+    background-image: url("../Media/EquipmentSection/gs-champion.jfif");
+    background-size: cover;
+    /* background-position: bottom; */
 }
 
 .col-small-3 {
-  background-image: url("../Media/EquipmentSection/shawarma.jfif");
-  background-size: cover;
-  /* background-position: bottom; */
+    background-image: url("../Media/EquipmentSection/shawarma.jfif");
+    background-size: cover;
+    /* background-position: bottom; */
 }
 
 .col-small-3-second {
-  background-image: url("../Media/EquipmentSection/gs-white.jfif");
-  background-size: cover;
-  /* background-position: bottom; */
+    background-image: url("../Media/EquipmentSection/gs-white.jfif");
+    background-size: cover;
+    /* background-position: bottom; */
 }
 
 .col-small-4 {
-  background-color: white;
+    background-color: white;
 }
 
 .col-small-h3 {
-  font-family: "Niconne", cursive;
-  font-size: 22px;
-  letter-spacing: 2px;
-  width: 100%;
-  color: #f2ac32;
+    font-family: "Niconne", cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
+    width: 100%;
+    color: #f2ac32;
 }
 
 .col-small-h4,
 .col-small-h5 {
-  width: 100%;
-  color: #000;
-  letter-spacing: 3px;
-  font-family: "Kdam Thmor Pro", sans-serif;
+    width: 100%;
+    color: #000;
+    letter-spacing: 3px;
+    font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 .col-small-h5 {
-  color: #f2ac32;
-  margin-top: 10px;
+    color: #f2ac32;
+    margin-top: 10px;
 }
 
 .bi-tag,
 .bi-bag {
-  width: 100%;
-  font-size: 50px;
-  margin-bottom: 10px;
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .col-small .bi-tag {
-  color: #f2ac32;
+    color: #f2ac32;
 }
 
 .separator-orange {
-  border-bottom: 2px solid #f2ac32;
+    border-bottom: 2px solid #f2ac32;
 }
