@@ -33,35 +33,80 @@
 
         <header>
             <nav
-                class="navbar pt-2 pb-3 px-3 fixed-top"
+                class="navbar navbar-expand-lg navbar-dark fixed-top"
                 style="background-color: black"
             >
-                <img
-                    src="Media/a5bc-black-logo.png"
-                    alt=""
-                    height="80px"
-                    width="120px"
-                    class=".img-fluid"
-                />
-                <ul class="nav-menu">
-                    <li class="px-2"><a href="./index.html">Welcome</a></li>
-                    <li class="px-2"><a href="./players.html">Players</a></li>
-                    <li class="px-2"><a href="./matches.html">Matches</a></li>
-                    <li class="px-2">
-                        <a href="./membership.html">Membership</a>
-                    </li>
-                    <li class="px-2"><a href="#">Contact</a></li>
-                    <li class="px-2">
-                        <a href="">
-                            <i class="bi bi-search"></i>
-                        </a>
-                    </li>
-                    <li class="px-2">
-                        <a href="./trophies.html">
-                            <i class="bi bi-trophy-fill"></i>
-                        </a>
-                    </li>
-                </ul>
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="Media/a5bc-black-logo.png"
+                        alt=""
+                        height="80px"
+                        width="120px"
+                        class="img-fluid"
+                    />
+                </a>
+
+                <!-- Add the navbar toggle button for small screens -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav-menu ml-auto">
+                        <li class="nav-item custom-item">
+                            <a class="nav-link custom-link" href="#">Welcome</a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./players.html"
+                                >Players</a
+                            >
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./matches.html"
+                                >Matches</a
+                            >
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./membership.html"
+                                >Membership</a
+                            >
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./contact.html"
+                                >Contact</a
+                            >
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a class="nav-link custom-link" href="#">
+                                <i class="bi bi-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./trophies.html"
+                            >
+                                <i class="bi bi-trophy-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
