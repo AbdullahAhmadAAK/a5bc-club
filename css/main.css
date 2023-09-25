@@ -57,11 +57,12 @@ header a,
 .nav-menu li {
     text-decoration: none;
     color: white;
-    transition: color 2s ease;
+    transition: 0.5s ease;
 }
 
 .nav-menu li a:hover {
-    color: #f2ac32;
+    background-color: gold; /* Background color when hovering */
+    color: darkred; /* Text color when hovering */
 }
 
 .header-title-1 {
