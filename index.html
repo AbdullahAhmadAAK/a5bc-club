@@ -1,158 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - A5BC</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home - A5BC</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fascinate&family=Kdam+Thmor+Pro&family=Niconne&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="bootstrap_modules/bootstrap/dist/css/bootstrap.css"
-    />
-
-    <link
-      rel="stylesheet"
-      href="bootstrap_modules/bootstrap-icons/font/bootstrap-icons.css"
-    />
-
-    <!-- bootstrap -->
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.js"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    /> -->
-
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <!------------------------------------ START HEADER SECTION -------------------------------->
-
-    <header>
-      <nav class="navbar pt-2 pb-3 px-3 fixed-top" style="background-color: black">
-        <img
-          src="Media/a5bc-black-logo.png"
-          alt=""
-          height="80px"
-          width="120px"
-          class=".img-fluid"
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fascinate&family=Kdam+Thmor+Pro&family=Niconne&display=swap"
+            rel="stylesheet"
         />
-        <ul class="nav-menu">
-          <li class="px-2"><a href="#">Welcome</a></li>
-          <li class="px-2"><a href="./players.html">Players</a></li>
-          <li class="px-2"><a href="./matches.html">Matches</a></li>
-          <li class="px-2"><a href="./membership.html">Membership</a></li>
-          <li class="px-2"><a href="./contact.html">Contact</a></li>
-          <li class="px-2">
-            <a href="">
-              <i class="bi bi-search"></i>
-            </a>
-          </li>
-          <li class="px-2">
-            <a href="./trophies.html">
-              <i class="bi bi-trophy-fill"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
 
-      <h2 class="header-title-1 mb-3 top-space">Welcome to</h2>
-      <h1 class="header-title-2 py-2">ASKARI 5 BADMINTON CLUB</h1>
-      <a href="#" class="px-4 py-2 header-cta-button">BOOK A MATCH</a>
+        <link
+            rel="stylesheet"
+            href="bootstrap_modules/bootstrap-icons/font/bootstrap-icons.css"
+        />
 
-      <!-- <a class="border border-dark px-2 py-2" href="#">BOOK A MATCH</a> -->
-    </header>
+        <!-- Add Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
 
-    <!------------------------------------ END HEADER SECTION -------------------------------->
+        <!-- Add Bootstrap JavaScript and jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!------------------------------------ START DISCOVER SECTION -------------------------------->
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <!------------------------------------ START HEADER SECTION -------------------------------->
 
-    <div class="row mx-0 my-0 py-5 discover-section justify-content-center">
-      <!-- ghayurs card for largescreen and phone -->
-      <div class="col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card horizontal-card px-3 py-3 mx-auto red-card">
-          <div class="row g-0">
-            <div class="col-4">
-              <img
-                src="Media/ghayur-solo-mobile.jpg"
-                alt=""
-                class="discover-card-img1 img-responsive"
-              />
+        <header>
+            <nav
+                class="navbar navbar-expand-lg navbar-dark fixed-top"
+                style="background-color: black"
+            >
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="Media/a5bc-black-logo.png"
+                        alt=""
+                        height="80px"
+                        width="120px"
+                        class="img-fluid"
+                    />
+                </a>
+
+                <!-- Add the navbar toggle button for small screens -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav-menu ml-auto">
+                        <li class="nav-item custom-item">
+                            <a class="nav-link custom-link" href="#">Welcome</a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./players.html"
+                                >Players</a
+                            >
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./matches.html"
+                                >Matches</a
+                            >
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./membership.html"
+                                >Membership</a
+                            >
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./contact.html"
+                                >Contact</a
+                            >
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a class="nav-link custom-link" href="#">
+                                <i class="bi bi-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item custom-item">
+                            <a
+                                class="nav-link custom-link"
+                                href="./trophies.html"
+                            >
+                                <i class="bi bi-trophy-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <h2 class="header-title-1 mb-3 top-space">Welcome to</h2>
+            <h1 class="header-title-2 py-2">ASKARI 5 BADMINTON CLUB</h1>
+            <a href="#" class="px-4 py-2 header-cta-button">BOOK A MATCH</a>
+
+            <!-- <a class="border border-dark px-2 py-2" href="#">BOOK A MATCH</a> -->
+        </header>
+
+        <!------------------------------------ END HEADER SECTION -------------------------------->
+
+        <!------------------------------------ START DISCOVER SECTION -------------------------------->
+
+        <div class="row mx-0 my-0 py-5 discover-section justify-content-center">
+            <!-- ghayurs card for largescreen and phone -->
+            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                <div class="card horizontal-card px-3 py-3 mx-auto red-card">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <img
+                                src="Media/ghayur-solo-mobile.jpg"
+                                alt=""
+                                class="discover-card-img1 img-responsive"
+                            />
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Secret behind Ghayour's Tumbling Net Shot
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-8">
-              <div class="card-body">
-                <h5 class="card-title">
-                  Secret behind Ghayour's Tumbling Net Shot
-                </h5>
-              </div>
+
+            <!-- ARs card for largescreen -->
+            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                <div class="card horizontal-card px-3 py-3 mx-auto red-card">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <img
+                                src="Media/ar-solo-mobile.jpg"
+                                alt=""
+                                class="discover-card-img1 img-responsive"
+                            />
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Learn Perfect Smash Technique from Coach AR
+                                    Junior
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <!-- Farhans card for largescreen -->
+            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                <div class="card horizontal-card px-3 py-3 mx-auto red-card">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <img
+                                src="Media/farhan-pic.jpg"
+                                alt=""
+                                class="discover-card-img1 img-responsive"
+                            />
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Most Successful Club Fighter: Farhan Bhai
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <!-- ARs card for largescreen -->
-      <div class="col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card horizontal-card px-3 py-3 mx-auto red-card">
-          <div class="row g-0">
-            <div class="col-4">
-              <img
-                src="Media/ar-solo-mobile.jpg"
-                alt=""
-                class="discover-card-img1 img-responsive"
-              />
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <h5 class="card-title">
-                  Learn Perfect Smash Technique from Coach AR Junior
-                </h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <!------------------------------------ END DISCOVER SECTION -------------------------------->
 
-      <!-- Farhans card for largescreen -->
-      <div class="col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card horizontal-card px-3 py-3 mx-auto red-card">
-          <div class="row g-0">
-            <div class="col-4">
-              <img
-                src="Media/farhan-pic.jpg"
-                alt=""
-                class="discover-card-img1 img-responsive"
-              />
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <h5 class="card-title">
-                  Most Successful Club Fighter: Farhan Bhai
-                </h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        <!------------------------------------ START SANDBOX SECTION -------------------------------->
 
-    <!------------------------------------ END DISCOVER SECTION -------------------------------->
-
-    <!------------------------------------ START SANDBOX SECTION -------------------------------->
-
-    <!-- <div class="row justify-content-center founders-section">
+        <!-- <div class="row justify-content-center founders-section">
       <div class="col-3">
         <div class="card my-4 aak-border">
           <div class="card-title text-center my-4">Founder Abdulah AAK</div>
@@ -166,383 +210,421 @@
       </div>
     </div> -->
 
-    <!------------------------------------ END SANDBOX SECTION -------------------------------->
+        <!------------------------------------ END SANDBOX SECTION -------------------------------->
 
-    <!------------------------------------ START SERVICES SECTION -------------------------------->
+        <!------------------------------------ START SERVICES SECTION -------------------------------->
 
-    <div class="services-section">
-      <div class="services-middle">
-        <div class="container">
-          <h1 class="services-h1 text-center">Services</h1>
-          <h2 class="services-h2 text-center">OFFERED AT A5BC COURT</h2>
+        <div class="services-section">
+            <div class="services-middle">
+                <div class="container">
+                    <h1 class="services-h1 text-center">Services</h1>
+                    <h2 class="services-h2 text-center">
+                        OFFERED AT A5BC COURT
+                    </h2>
 
-          <div class="row justify-content-center my-3">
-            <div class="col-lg-2 col-6">
-              <div class="card services-card">
-                <img
-                  src="Media/ServicesSection/serious-match.jfif"
-                  alt=""
-                  class="card-image-top services-image mx-auto"
-                />
+                    <div class="row justify-content-center my-3">
+                        <div class="col-lg-2 col-6">
+                            <div class="card services-card">
+                                <img
+                                    src="Media/ServicesSection/serious-match.jfif"
+                                    alt=""
+                                    class="card-image-top services-image mx-auto"
+                                />
 
-                <div class="services-overlay">
-                  <div class="services-overlay-border">VIEW MORE DETAILS</div>
+                                <div class="services-overlay">
+                                    <div class="services-overlay-border">
+                                        VIEW MORE DETAILS
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="text-center services-h4">
+                                CLUB VS CLUB MATCH
+                            </h4>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="card services-card">
+                                <img
+                                    src="Media/ServicesSection/coach.jpg"
+                                    alt=""
+                                    class="card-image-top services-image mx-auto"
+                                />
+
+                                <div class="services-overlay">
+                                    <div class="services-overlay-border">
+                                        VIEW MORE DETAILS
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="text-center services-h4">
+                                COACHING SESSION
+                            </h4>
+                        </div>
+                        <div class="col-lg-2 d-lg-block d-none">
+                            <div class="card services-card">
+                                <img
+                                    src="Media/ServicesSection/chiri-chika.jpg"
+                                    alt=""
+                                    class="card-image-top services-image mx-auto"
+                                />
+
+                                <div class="services-overlay">
+                                    <div class="services-overlay-border">
+                                        VIEW MORE DETAILS
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="text-center services-h4">
+                                PLAY FOR LEISURE
+                            </h4>
+                        </div>
+                        <div class="col-lg-2 col-3 d-lg-block d-none">
+                            <div class="card services-card">
+                                <img
+                                    src="Media/ServicesSection/spectators.jfif"
+                                    alt=""
+                                    class="card-image-top services-image mx-auto"
+                                />
+
+                                <div class="services-overlay">
+                                    <div class="services-overlay-border">
+                                        VIEW MORE DETAILS
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="text-center services-h4">
+                                SPECTATE CLUB MATCH
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-6 d-lg-none">
+                            <div class="card services-card">
+                                <img
+                                    src="Media/ServicesSection/chiri-chika.jpg"
+                                    alt=""
+                                    class="card-image-top services-image mx-auto"
+                                />
+
+                                <div class="services-overlay">
+                                    <div class="services-overlay-border">
+                                        VIEW MORE DETAILS
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4 class="text-center services-h4">
+                                PLAY FOR LEISURE
+                            </h4>
+                        </div>
+                        <div class="col-6 d-lg-none">
+                            <div class="card services-card">
+                                <img
+                                    src="Media/ServicesSection/spectators.jfif"
+                                    alt=""
+                                    class="card-image-top services-image mx-auto"
+                                />
+
+                                <div class="services-overlay">
+                                    <div class="services-overlay-border">
+                                        VIEW MORE DETAILS
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="text-center services-h4">
+                                SPECTATE CLUB MATCH
+                            </h4>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <h4 class="text-center services-h4">CLUB VS CLUB MATCH</h4>
             </div>
-            <div class="col-lg-2 col-6">
-              <div class="card services-card">
-                <img
-                  src="Media/ServicesSection/coach.jpg"
-                  alt=""
-                  class="card-image-top services-image mx-auto"
-                />
-
-                <div class="services-overlay">
-                  <div class="services-overlay-border">VIEW MORE DETAILS</div>
-                </div>
-              </div>
-              <h4 class="text-center services-h4">COACHING SESSION</h4>
-            </div>
-            <div class="col-lg-2 d-lg-block d-none">
-              <div class="card services-card">
-                <img
-                  src="Media/ServicesSection/chiri-chika.jpg"
-                  alt=""
-                  class="card-image-top services-image mx-auto"
-                />
-
-                <div class="services-overlay">
-                  <div class="services-overlay-border">VIEW MORE DETAILS</div>
-                </div>
-              </div>
-              <h4 class="text-center services-h4">PLAY FOR LEISURE</h4>
-            </div>
-            <div class="col-lg-2 col-3 d-lg-block d-none">
-              <div class="card services-card">
-                <img
-                  src="Media/ServicesSection/spectators.jfif"
-                  alt=""
-                  class="card-image-top services-image mx-auto"
-                />
-
-                <div class="services-overlay">
-                  <div class="services-overlay-border">VIEW MORE DETAILS</div>
-                </div>
-              </div>
-              <h4 class="text-center services-h4">SPECTATE CLUB MATCH</h4>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-6 d-lg-none">
-              <div class="card services-card">
-                <img
-                  src="Media/ServicesSection/chiri-chika.jpg"
-                  alt=""
-                  class="card-image-top services-image mx-auto"
-                />
-
-                <div class="services-overlay">
-                  <div class="services-overlay-border">VIEW MORE DETAILS</div>
-                </div>
-              </div>
-
-              <h4 class="text-center services-h4">PLAY FOR LEISURE</h4>
-            </div>
-            <div class="col-6 d-lg-none">
-              <div class="card services-card">
-                <img
-                  src="Media/ServicesSection/spectators.jfif"
-                  alt=""
-                  class="card-image-top services-image mx-auto"
-                />
-
-                <div class="services-overlay">
-                  <div class="services-overlay-border">VIEW MORE DETAILS</div>
-                </div>
-              </div>
-              <h4 class="text-center services-h4">SPECTATE CLUB MATCH</h4>
-            </div>
-          </div>
+            <div class="services-bottom"></div>
         </div>
-      </div>
-      <div class="services-bottom"></div>
-    </div>
 
-    <!------------------------------------ END SERVICES SECTION -------------------------------->
+        <!------------------------------------ END SERVICES SECTION -------------------------------->
 
-    <!------------------------------------ START AWAY TEAM SECTION -------------------------------->
+        <!------------------------------------ START AWAY TEAM SECTION -------------------------------->
 
-    <div class="away-team-section">
-      <h1 class="away-team-h1">Club Fighters</h1>
-      <h2 class="away-team-h2">OF A5BC</h2>
+        <div class="away-team-section">
+            <h1 class="away-team-h1">Club Fighters</h1>
+            <h2 class="away-team-h2">OF A5BC</h2>
 
-      <div class="container-fluid collage-padding">
-        <div class="row gx-0">
-          <div class="col-lg-6 col-12 d-lg-flex justify-content-lg-end">
-            <div class="flip-card card-captain away-row-1">
-              <div class="flip-card-inner d-flex justify-content-end">
-                <div class="flip-card-front">
-                  <img
-                    src="Media/AwayTeamSection/ibrahim-away.png"
-                    alt="Avatar"
-                    class="away-row-1"
-                  />
+            <div class="container-fluid collage-padding">
+                <div class="row gx-0">
+                    <div
+                        class="col-lg-6 col-12 d-lg-flex justify-content-lg-end"
+                    >
+                        <div class="flip-card card-captain away-row-1">
+                            <div
+                                class="flip-card-inner d-flex justify-content-end"
+                            >
+                                <div class="flip-card-front">
+                                    <img
+                                        src="Media/AwayTeamSection/ibrahim-away.png"
+                                        alt="Avatar"
+                                        class="away-row-1"
+                                    />
+                                </div>
+                                <div class="flip-card-back">
+                                    <ul class="captain-specs">
+                                        <li>
+                                            <h1>Backcourt player</h1>
+                                            <p>Specialty: Steep Shots</p>
+                                            <p>"Come on!"</p>
+                                        </li>
+                                        <li><h1>Club President</h1></li>
+                                        <li><h1>Finance Manager</h1></li>
+                                        <li><h1>Team A's Captain</h1></li>
+                                        <li><h1>Senior Head</h1></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 d-lg-flex d-none justify-content-start"
+                    >
+                        <img
+                            src="Media/AwayTeamSection/logo-away.png"
+                            alt=""
+                            class="away-row-1 img-responsive"
+                        />
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img
+                                        src="Media/AwayTeamSection/abdullah-away.png"
+                                        alt="Avatar"
+                                        class="away-row-others"
+                                    />
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Frontcourt player</h1>
+                                    <p>Specialty: Reactions</p>
+                                    <p>"Pehli!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img
+                                        src="Media/AwayTeamSection/ghayour-away.png"
+                                        alt="Avatar"
+                                        class="away-row-others"
+                                    />
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Frontcourt player</h1>
+                                    <p>Specialty: Net Shots</p>
+                                    <p>Ohhhh!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img
+                                        src="Media/AwayTeamSection/muaaz-away.png"
+                                        alt="Avatar"
+                                        class="away-row-others"
+                                    />
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Backcourt player</h1>
+                                    <p>Specialty: Power</p>
+                                    <p>"Ese hi!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img
+                                        src="Media/AwayTeamSection/haseeb-away.png"
+                                        alt="Avatar"
+                                        class="away-row-others"
+                                    />
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Backcourt player</h1>
+                                    <p>Specialty: Power</p>
+                                    <p>"Dhaz dhaz!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img
+                                        src="Media/AwayTeamSection/bilal-away.png"
+                                        alt="Avatar"
+                                        class="away-row-others"
+                                    />
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Backcourt player</h1>
+                                    <p>Specialty: Power</p>
+                                    <p>"..."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img
+                                        src="Media/AwayTeamSection/najaf-away.png"
+                                        alt="Avatar"
+                                        class="away-row-others"
+                                    />
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Backcourt player</h1>
+                                    <p>Specialty: Defense</p>
+                                    <p>"Ahhh!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img
+                                        src="Media/AwayTeamSection/farhan-away.png"
+                                        alt="Avatar"
+                                        class="away-row-others"
+                                    />
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Frontcourt player</h1>
+                                    <p>Specialty: Net</p>
+                                    <p>"Just out!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img
+                                        src="Media/AwayTeamSection/raza-away.png"
+                                        alt="Avatar"
+                                        class="away-row-others"
+                                    />
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>Frontcourt player</h1>
+                                    <p>Specialty: Net</p>
+                                    <p>"Good D!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="flip-card-back">
-                  <ul class="captain-specs">
-                    <li>
-                      <h1>Backcourt player</h1>
-                      <p>Specialty: Steep Shots</p>
-                      <p>"Come on!"</p>
-                    </li>
-                    <li><h1>Club President</h1></li>
-                    <li><h1>Finance Manager</h1></li>
-                    <li><h1>Team A's Captain</h1></li>
-                    <li><h1>Senior Head</h1></li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="col-lg-6 d-lg-flex d-none justify-content-start">
-            <img
-              src="Media/AwayTeamSection/logo-away.png"
-              alt=""
-              class="away-row-1 img-responsive"
-            />
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img
-                    src="Media/AwayTeamSection/abdullah-away.png"
-                    alt="Avatar"
-                    class="away-row-others"
-                  />
-                </div>
-                <div class="flip-card-back">
-                  <h1>Frontcourt player</h1>
-                  <p>Specialty: Reactions</p>
-                  <p>"Pehli!"</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img
-                    src="Media/AwayTeamSection/ghayour-away.png"
-                    alt="Avatar"
-                    class="away-row-others"
-                  />
-                </div>
-                <div class="flip-card-back">
-                  <h1>Frontcourt player</h1>
-                  <p>Specialty: Net Shots</p>
-                  <p>Ohhhh!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img
-                    src="Media/AwayTeamSection/muaaz-away.png"
-                    alt="Avatar"
-                    class="away-row-others"
-                  />
-                </div>
-                <div class="flip-card-back">
-                  <h1>Backcourt player</h1>
-                  <p>Specialty: Power</p>
-                  <p>"Ese hi!"</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img
-                    src="Media/AwayTeamSection/haseeb-away.png"
-                    alt="Avatar"
-                    class="away-row-others"
-                  />
-                </div>
-                <div class="flip-card-back">
-                  <h1>Backcourt player</h1>
-                  <p>Specialty: Power</p>
-                  <p>"Dhaz dhaz!"</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img
-                    src="Media/AwayTeamSection/bilal-away.png"
-                    alt="Avatar"
-                    class="away-row-others"
-                  />
-                </div>
-                <div class="flip-card-back">
-                  <h1>Backcourt player</h1>
-                  <p>Specialty: Power</p>
-                  <p>"..."</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img
-                    src="Media/AwayTeamSection/najaf-away.png"
-                    alt="Avatar"
-                    class="away-row-others"
-                  />
-                </div>
-                <div class="flip-card-back">
-                  <h1>Backcourt player</h1>
-                  <p>Specialty: Defense</p>
-                  <p>"Ahhh!"</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img
-                    src="Media/AwayTeamSection/farhan-away.png"
-                    alt="Avatar"
-                    class="away-row-others"
-                  />
-                </div>
-                <div class="flip-card-back">
-                  <h1>Frontcourt player</h1>
-                  <p>Specialty: Net</p>
-                  <p>"Just out!"</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img
-                    src="Media/AwayTeamSection/raza-away.png"
-                    alt="Avatar"
-                    class="away-row-others"
-                  />
-                </div>
-                <div class="flip-card-back">
-                  <h1>Frontcourt player</h1>
-                  <p>Specialty: Net</p>
-                  <p>"Good D!"</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <!------------------------------------ END AWAY TEAM SECTION -------------------------------->
+        <!------------------------------------ END AWAY TEAM SECTION -------------------------------->
 
-    <!------------------------------------ START EQUIPMENT SECTION BOOTSTRAP!! -------------------------------->
+        <!------------------------------------ START EQUIPMENT SECTION BOOTSTRAP!! -------------------------------->
 
-    <div class="equipment-section">
-      <h1 class="equipment-h1">Our Stock</h1>
-      <h2 class="equipment-h2">IS AWESOME!</h2>
+        <div class="equipment-section">
+            <h1 class="equipment-h1">Our Stock</h1>
+            <h2 class="equipment-h2">IS AWESOME!</h2>
 
-      <div class="container-fluid collage-padding">
-        <div class="equipment-box">
-          <div class="row gx-0">
-            <div class="col-lg-3 col-8 rackets-info">
-              <i class="bi bi-tag"></i>
-              <h3 class="equipment-h3">Racquets</h3>
-              <span class="separator"></span>
-              <h4 class="equipment-h4">Yonex Astrox</h4>
-              <p class="equipment-p">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Ratione exercitationem, ex ipsam aliquam eius consequatur
-                ducimus repellendus nobis delectus at?
-              </p>
-              <h4 class="equipment-h4">FROM RS 4000</h4>
+            <div class="container-fluid collage-padding">
+                <div class="equipment-box">
+                    <div class="row gx-0">
+                        <div class="col-lg-3 col-8 rackets-info">
+                            <i class="bi bi-tag"></i>
+                            <h3 class="equipment-h3">Racquets</h3>
+                            <span class="separator"></span>
+                            <h4 class="equipment-h4">Yonex Astrox</h4>
+                            <p class="equipment-p">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Ratione exercitationem, ex
+                                ipsam aliquam eius consequatur ducimus
+                                repellendus nobis delectus at?
+                            </p>
+                            <h4 class="equipment-h4">FROM RS 4000</h4>
+                        </div>
+                        <div class="col-lg-3 col-4 rackets-pic"></div>
+                        <div class="col-lg-3 col-12 d-flex flex-column">
+                            <div class="col-lg-12 col-8 refreshments-info-1">
+                                <i class="bi bi-tag"></i>
+                                <h3 class="col-small-h3">Refreshments</h3>
+                                <span class="separator-orange"></span>
+                                <h4 class="col-small-h4">PIZZA</h4>
+                                <h5 class="col-small-h5">FROM RS 800</h5>
+                            </div>
+                            <div
+                                class="col-lg-12 col-4 refreshments-pic-1"
+                            ></div>
+                        </div>
+                        <div class="col-lg-3 col-12 d-lg-block d-flex">
+                            <div
+                                class="col-lg-12 col-8 refreshments-pic-2"
+                            ></div>
+                            <div class="col-lg-12 col-4 refreshments-info-2">
+                                <i class="bi bi-tag"></i>
+                                <h3 class="col-small-h3">Refreshments</h3>
+                                <span class="separator-orange"></span>
+                                <h4 class="col-small-h4">SHAWARMA</h4>
+                                <h5 class="col-small-h5">FROM RS 350</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-0">
+                        <div class="col-lg-3 col-12 d-lg-block d-flex">
+                            <div class="col-lg-12 col-8 shuttles-pic-1"></div>
+                            <div class="col-lg-12 col-4 shuttles-info-1">
+                                <i class="bi bi-tag"></i>
+                                <h3 class="col-small-h3">Shuttles</h3>
+                                <span class="separator-orange"></span>
+                                <h4 class="col-small-h4">GS GOLD</h4>
+                                <h5 class="col-small-h5">FROM RS 1300</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 d-flex flex-column">
+                            <div class="col-lg-12 col-8 shuttles-info-2">
+                                <i class="bi bi-tag"></i>
+                                <h3 class="col-small-h3">Shuttles</h3>
+                                <span class="separator-orange"></span>
+                                <h4 class="col-small-h4">GS WHITE</h4>
+                                <h5 class="col-small-h5">FROM RS 1200</h5>
+                            </div>
+                            <div class="col-lg-12 col-4 shuttles-pic-2"></div>
+                        </div>
+                        <div class="col-lg-3 col-8 shuttles-info-3">
+                            <i class="bi bi-bag"></i>
+                            <h3 class="equipment-h3">Shuttles</h3>
+                            <span class="separator"></span>
+                            <h4 class="equipment-h4">Wecan</h4>
+                            <p class="equipment-p">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Ratione exercitationem, ex
+                                ipsam aliquam eius consequatur ducimus
+                                repellendus nobis delectus at?
+                            </p>
+                            <h4 class="equipment-h4">FROM RS 3600</h4>
+                        </div>
+                        <div class="col-lg-3 col-4 shuttles-pic-3">8</div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-3 col-4 rackets-pic"></div>
-            <div class="col-lg-3 col-12 d-flex flex-column">
-              <div class="col-lg-12 col-8 refreshments-info-1">
-                <i class="bi bi-tag"></i>
-                <h3 class="col-small-h3">Refreshments</h3>
-                <span class="separator-orange"></span>
-                <h4 class="col-small-h4">PIZZA</h4>
-                <h5 class="col-small-h5">FROM RS 800</h5>
-              </div>
-              <div class="col-lg-12 col-4 refreshments-pic-1"></div>
-            </div>
-            <div class="col-lg-3 col-12 d-lg-block d-flex">
-              <div class="col-lg-12 col-8 refreshments-pic-2"></div>
-              <div class="col-lg-12 col-4 refreshments-info-2">
-                <i class="bi bi-tag"></i>
-                <h3 class="col-small-h3">Refreshments</h3>
-                <span class="separator-orange"></span>
-                <h4 class="col-small-h4">SHAWARMA</h4>
-                <h5 class="col-small-h5">FROM RS 350</h5>
-              </div>
-            </div>
-          </div>
-          <div class="row gx-0">
-            <div class="col-lg-3 col-12 d-lg-block d-flex">
-              <div class="col-lg-12 col-8 shuttles-pic-1"></div>
-              <div class="col-lg-12 col-4 shuttles-info-1">
-                <i class="bi bi-tag"></i>
-                <h3 class="col-small-h3">Shuttles</h3>
-                <span class="separator-orange"></span>
-                <h4 class="col-small-h4">GS GOLD</h4>
-                <h5 class="col-small-h5">FROM RS 1300</h5>
-              </div>
-            </div>
-            <div class="col-lg-3 col-12 d-flex flex-column">
-              <div class="col-lg-12 col-8 shuttles-info-2">
-                <i class="bi bi-tag"></i>
-                <h3 class="col-small-h3">Shuttles</h3>
-                <span class="separator-orange"></span>
-                <h4 class="col-small-h4">GS WHITE</h4>
-                <h5 class="col-small-h5">FROM RS 1200</h5>
-              </div>
-              <div class="col-lg-12 col-4 shuttles-pic-2"></div>
-            </div>
-            <div class="col-lg-3 col-8 shuttles-info-3">
-              <i class="bi bi-bag"></i>
-              <h3 class="equipment-h3">Shuttles</h3>
-              <span class="separator"></span>
-              <h4 class="equipment-h4">Wecan</h4>
-              <p class="equipment-p">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Ratione exercitationem, ex ipsam aliquam eius consequatur
-                ducimus repellendus nobis delectus at?
-              </p>
-              <h4 class="equipment-h4">FROM RS 3600</h4>
-            </div>
-            <div class="col-lg-3 col-4 shuttles-pic-3">8</div>
-          </div>
         </div>
-      </div>
-    </div>
-    <script src="bootstrap_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-  </body>
+        <script src="bootstrap_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
 </html>
