@@ -302,7 +302,7 @@ header a,
 }
 
 .collage-padding {
-    padding: 4% 20%;
+    padding: 8% 20%;
 }
 
 @media screen and (min-width: 992px) {
@@ -409,7 +409,7 @@ header a,
 }
 
 .card-captain .flip-card-back {
-    padding: 60px;
+    padding: 10px;
 }
 
 .captain-specs {
@@ -417,7 +417,7 @@ header a,
 }
 
 ul.captain-specs li::marker {
-    font-size: 30px;
+    font-size: 15x;
 }
 
 /******************************** EQUIPMENT SECTION BOOTSTRAP VERSION *********************************/
