@@ -11,6 +11,6 @@ The website is deployed [here](https://askari-5-badminton-club.vercel.app/).
 
 ![image](https://github.com/user-attachments/assets/8361f4e6-094c-4999-833f-a84168cd60af)
 
-![image](https://github.com/user-attachments/assets/c65e8d5d-fdb4-4bef-91be-3bcbfdcb710e)
+![image](https://github.com/user-attachments/assets/ce8d9096-d3a3-4733-9742-688ddbb5265c)
 
 ![image](https://github.com/user-attachments/assets/98e1f4a6-5ac9-4a57-a86d-2aff3bb47cdb)
