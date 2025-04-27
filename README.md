@@ -4,7 +4,7 @@ I was free during the time the Corona virus struck the Earth, so redeployed this
 
 This here is the result of my 'playing around.'
 
-If you want to take a look at the Facebook page for our club, you can see it right [here]([https://askari-5-badminton-club.vercel.app/](https://www.facebook.com/AskariSmashers/)).
+If you want to take a look at the Facebook page for our club, you can see it right [here](https://www.facebook.com/AskariSmashers/).
 The website is deployed [here](https://askari-5-badminton-club.vercel.app/).
 
 **Images**
